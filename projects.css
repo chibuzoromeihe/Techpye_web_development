@@ -1,0 +1,17 @@
+body{
+	padding: 20px;
+	background-image: url("background2.jpg");
+}
+h2{
+	color: rgb(230, 221, 223);
+	font-weight: bolder;
+	text-decoration: underline;
+}
+p{
+	color: #fff;
+	font-weight: bolder;
+	font-size: large;
+}
+ol{
+	color: #fff;
+}

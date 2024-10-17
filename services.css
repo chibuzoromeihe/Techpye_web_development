@@ -1,0 +1,17 @@
+body{
+	padding: 20px;
+}
+#services h3{
+	color: red;
+	border-bottom: solid black;
+	border-top: solid black;
+	width: 150px;
+}
+#services h2{
+	width: 300px;
+	color: red;
+	font-weight: lighter;
+}
+#services p{
+	font-weight: bold;
+}

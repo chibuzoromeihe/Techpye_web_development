@@ -1,0 +1,54 @@
+#sect1 img{
+	width: 200px;
+	height: 200px;
+	border-style: solid;
+	border-radius: 150px;
+	border-width: 5px;
+	float: middle;
+}
+#sect1 h1{
+	color: black;
+}
+
+body{
+	background-color: lemonchiffon;
+	padding: 10px;
+	text-align: justify;
+}
+#navig {
+	display: flexbox;
+	text-decoration: none;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: bold;
+	margin-top: 20px;
+}
+#navig :hover{
+	background-color: black;
+	color: wheat;
+	font-size: x-large;
+	text-decoration: none;
+}
+#navig a:link{
+	text-decoration: none;
+	margin: 1.7px;
+	border: 2px solid;
+}
+
+.sociallinks{
+	color: red;
+	font-family: serif;
+	font-size: medium;
+	font-weight: bold;
+}
+header{
+	border-top: solid blue;
+	border-bottom: solid blue;
+	width: 200px;
+	border-radius: 50px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: lighter;
+}
+footer{
+	text-align: left;
+	font-weight: bold;
+}
