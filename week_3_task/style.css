@@ -1,0 +1,138 @@
+body {
+  background-color: #fffdf8;
+  margin: 0 0.9rem;
+}
+
+.nav-container {
+  background-color: #fff8e9;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  height: 4.5rem;
+  z-index: 999;
+}
+.nav-list {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+.nav-list-item {
+  flex: 1;
+}
+.nav-link {
+  display: block;
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  background-color: #fff8e9;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-decoration: none;
+  gap: 0.07rem;
+  font-family: "Times New Roman", Times, serif;
+  color: #353431;
+  font-weight: 700;
+  opacity: 100%;
+}
+.nav-link span:nth-child(2) {
+  opacity: 100%;
+  font-size: 1rem;
+}
+.nav-link-icon-wrapper {
+  height: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-weight: bold;
+  text-align: center;
+  padding-top: 7rem;
+  color: black;
+}
+h2 {
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 1rem;
+  color: black;
+}
+.p1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.1rem;
+  text-align: center;
+  text-justify: auto;
+  padding-bottom: 1rem;
+  color: black;
+}
+button {
+  width: 40%;
+  padding: 0.5rem;
+  background-color: #db8e21;
+  border-radius: 1rem;
+  text-align: center;
+  display: block;
+  margin: auto;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+button:hover {
+  background-color: #f3c482;
+}
+h3 {
+  color: black;
+  text-align: center;
+  padding-top: 2.5rem;
+}
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+.box {
+  float: left;
+  position: relative;
+  margin: 0.7rem;
+  width: fit-content;
+  height: auto;
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+  background-color: #ffecbc;
+  padding: 0.9rem;
+}
+
+.container :nth-last-child(1) {
+  background-color: black;
+  color: white;
+}
+.icon {
+  position: absolute;
+  bottom: 0;
+  margin-left: 70%;
+}
+.content,
+.h4,
+.p {
+  color: black;
+}
+
+.location {
+  clear: both;
+}
+
+table {
+  padding-bottom: 9rem;
+  width: 100%;
+
+  th,
+  th {
+    text-align: left;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-collapse: collapse;
+  }
+}
