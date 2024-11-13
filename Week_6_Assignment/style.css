@@ -1,0 +1,115 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: rgb(193, 213, 226);
+  text-align: center;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.button1 {
+  background-color: #356859;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5em;
+  color: #fffbe6;
+  border-radius: 15px;
+  height: 2.5em;
+  width: 6em;
+  border: solid 1px #fffbe6;
+  display: block;
+  margin: 2em auto 0;
+}
+.button1:hover {
+  background-color: #93e1b0;
+  cursor: pointer;
+  color: #356859;
+  border: solid 1px #356859;
+}
+
+input {
+  width: 10.15em;
+  height: 2em;
+  font-size: 1.8em;
+  background-color: #356859;
+  border: solid 1px;
+  font-family: "Lekton", sans-serif;
+  color: white;
+  text-align: center;
+  border-radius: 15px;
+  font-weight: 200;
+}
+.score {
+  font-size: larger;
+  font-weight: bolder;
+  color: black;
+  font-family: serif;
+}
+
+#game-screen,
+#end-screen {
+  display: none;
+}
+
+#hint-section {
+  width: 40em;
+  background-color: #e7c17a;
+  border: 1px solid #8cc1ea;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+#hint-section h3 {
+  margin-top: 0;
+}
+#hint-section ul {
+  list-style: decimal;
+}
+
+#feedback {
+  font-weight: bold;
+  font-size: larger;
+  color: #4a90e2;
+}
+.firstpage h1 {
+  text-decoration: underline;
+  text-decoration-color: #e6230a;
+  font-family: fantasy;
+  font-weight: 90;
+}
+.firstpage button {
+  background-color: #e6230a;
+  width: 11rem;
+  height: 3rem;
+  border: solid;
+  border-radius: 40rem;
+  color: white;
+  font-size: medium;
+  &:hover {
+    zoom: 1.3;
+  }
+}
+.firstpage svg {
+  width: 150px;
+  height: 150px;
+}
+.button2 {
+  width: 8rem;
+  border: 1rem #fffbe6;
+  background-color: rgb(216, 136, 116);
+  font-size: large;
+  font-weight: 200;
+  border-radius: 1.5rem;
+
+  &:hover {
+    background-color: red;
+    color: white;
+  }
+}
